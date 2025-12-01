@@ -1,0 +1,22 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Alteryx autosave files
+*.bak
+*.yxbak
+
+# Logs / temporary files
+*.log
+*.tmp
+
+# Large raw data (keep README)
+data/raw/*
+!data/raw/README.md
