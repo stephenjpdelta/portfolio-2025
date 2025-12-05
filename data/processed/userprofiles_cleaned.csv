@@ -1,0 +1,114 @@
+smoker,drink_level,dress_preference,ambience,transport,marital_status,hijos,interest,personality,religion,activity,budget,bmi_group,age_group
+false,abstemious,informal,family,on foot,single,independent,variety,thrifty-protector,none,student,medium,normal,1980s
+false,abstemious,informal,family,public,single,independent,technology,hunter-ostentatious,catholic,student,low,underweight,1990s
+false,social drinker,formal,family,public,single,independent,none,hard-worker,catholic,student,low,normal,1980s
+false,abstemious,no preference,family,public,single,independent,none,thrifty-protector,catholic,student,medium,normal,1990s
+true,social drinker,no preference,friends,car owner,single,independent,variety,hard-worker,none,student,medium,normal,1980s
+false,social drinker,formal,solitary,public,single,independent,technology,hard-worker,catholic,student,low,normal,1980s
+false,abstemious,formal,family,on foot,single,kids,variety,thrifty-protector,catholic,student,medium,normal,1990s
+false,social drinker,no preference,friends,car owner,married,kids,technology,hard-worker,none,student,medium,underweight,1980s
+false,abstemious,no preference,family,public,single,independent,variety,hard-worker,catholic,student,medium,normal,1980s
+false,casual drinker,formal,family,public,single,independent,technology,hard-worker,catholic,student,medium,overweight,1980s
+false,abstemious,no preference,friends,public,widow,independent,retro,thrifty-protector,none,professional,medium,overweight,1980s
+false,abstemious,?,friends,public,single,independent,none,hard-worker,catholic,student,medium,normal,1990s
+true,social drinker,informal,family,public,single,independent,technology,thrifty-protector,catholic,student,medium,obesity_i,1980s
+false,casual drinker,informal,friends,on foot,single,independent,eco-friendly,thrifty-protector,catholic,student,medium,overweight,1990s
+false,casual drinker,formal,family,public,single,?,retro,hunter-ostentatious,none,professional,medium,normal,1990s
+true,casual drinker,formal,friends,public,single,independent,technology,thrifty-protector,christian,student,low,normal,1980s
+false,casual drinker,no preference,family,public,single,independent,variety,thrifty-protector,catholic,student,medium,normal,1980s
+false,abstemious,no preference,friends,public,single,independent,technology,hard-worker,catholic,professional,medium,underweight,1980s
+false,social drinker,no preference,family,car owner,single,dependent,none,hard-worker,catholic,student,medium,obesity_iii,1980s
+false,casual drinker,informal,friends,car owner,single,independent,none,hard-worker,catholic,student,low,obesity_i,1980s
+false,social drinker,no preference,family,public,single,?,none,thrifty-protector,catholic,student,medium,normal,1990s
+true,social drinker,no preference,?,public,single,independent,retro,thrifty-protector,catholic,student,low,normal,1980s
+false,abstemious,no preference,family,public,single,independent,variety,hard-worker,christian,student,medium,overweight,1980s
+true,casual drinker,formal,family,public,single,independent,variety,conformist,catholic,student,low,normal,1990s
+false,casual drinker,formal,family,on foot,single,independent,eco-friendly,hard-worker,catholic,student,medium,normal,1990s
+false,abstemious,informal,solitary,?,married,kids,none,hard-worker,catholic,unemployed,medium,underweight,1990s
+false,abstemious,formal,family,public,single,independent,variety,hard-worker,catholic,student,medium,underweight,1980s
+false,social drinker,no preference,family,on foot,single,?,none,hard-worker,none,student,low,normal,1990s
+true,casual drinker,no preference,friends,car owner,single,independent,variety,hunter-ostentatious,none,student,medium,normal,1980s
+false,social drinker,informal,family,public,single,independent,none,hard-worker,catholic,student,medium,overweight,1990s
+true,social drinker,no preference,family,public,single,independent,variety,thrifty-protector,catholic,student,low,overweight,1930s
+false,social drinker,no preference,friends,?,single,independent,none,hard-worker,none,student,medium,overweight,1980s
+false,abstemious,no preference,friends,public,single,independent,none,thrifty-protector,catholic,student,medium,overweight,1990s
+false,abstemious,no preference,friends,on foot,single,independent,eco-friendly,hunter-ostentatious,catholic,professional,medium,underweight,1980s
+false,abstemious,no preference,solitary,public,single,independent,technology,hard-worker,none,student,medium,normal,1980s
+true,social drinker,informal,family,car owner,married,kids,variety,thrifty-protector,catholic,professional,medium,overweight,1960s
+false,casual drinker,elegant,friends,car owner,single,independent,technology,thrifty-protector,mormon,student,high,overweight,1990s
+false,social drinker,no preference,friends,car owner,single,independent,retro,hard-worker,catholic,student,medium,normal,1990s
+false,abstemious,no preference,family,public,single,independent,retro,thrifty-protector,catholic,student,medium,normal,1990s
+true,casual drinker,no preference,?,public,single,independent,eco-friendly,thrifty-protector,none,student,medium,normal,1980s
+false,casual drinker,informal,solitary,public,single,?,none,hard-worker,none,student,?,normal,1990s
+false,social drinker,no preference,family,car owner,single,independent,variety,hard-worker,none,student,medium,normal,1980s
+false,casual drinker,no preference,family,public,single,independent,variety,thrifty-protector,none,professional,medium,normal,1970s
+true,social drinker,no preference,family,on foot,single,independent,none,conformist,catholic,student,low,overweight,1990s
+false,casual drinker,informal,family,public,single,independent,variety,thrifty-protector,catholic,student,low,normal,1990s
+false,social drinker,formal,family,public,single,independent,technology,thrifty-protector,catholic,student,medium,normal,1990s
+false,abstemious,no preference,family,car owner,married,dependent,none,hard-worker,catholic,professional,medium,overweight,1950s
+false,social drinker,informal,family,on foot,single,independent,none,hard-worker,catholic,student,medium,normal,1930s
+true,casual drinker,formal,friends,public,single,independent,technology,hunter-ostentatious,catholic,student,medium,normal,1980s
+false,abstemious,formal,family,public,single,independent,variety,hard-worker,catholic,student,low,normal,1990s
+false,abstemious,formal,friends,on foot,single,independent,technology,thrifty-protector,catholic,student,medium,normal,1980s
+false,casual drinker,formal,family,public,single,independent,technology,thrifty-protector,catholic,student,medium,normal,1990s
+false,social drinker,no preference,friends,car owner,single,independent,none,hard-worker,catholic,professional,medium,underweight,1990s
+false,casual drinker,informal,friends,car owner,single,independent,variety,hard-worker,catholic,student,medium,obesity_i,1980s
+false,casual drinker,formal,family,public,single,independent,eco-friendly,conformist,catholic,student,medium,overweight,1980s
+false,casual drinker,formal,solitary,public,single,independent,variety,hunter-ostentatious,none,student,medium,obesity_i,1990s
+false,abstemious,formal,friends,public,single,independent,technology,conformist,catholic,student,medium,normal,1980s
+false,abstemious,no preference,family,public,single,independent,technology,thrifty-protector,christian,student,medium,obesity_i,1980s
+false,casual drinker,informal,friends,public,single,independent,variety,thrifty-protector,catholic,student,low,underweight,1990s
+false,abstemious,formal,friends,car owner,single,independent,none,hunter-ostentatious,none,student,high,underweight,1930s
+false,abstemious,informal,solitary,car owner,widow,kids,none,hard-worker,none,unemployed,medium,obesity_ii,1980s
+true,casual drinker,no preference,family,car owner,single,kids,eco-friendly,hard-worker,catholic,professional,medium,normal,1960s
+false,casual drinker,informal,family,car owner,single,independent,technology,thrifty-protector,catholic,student,medium,overweight,1990s
+false,social drinker,elegant,family,public,married,kids,technology,thrifty-protector,catholic,student,medium,normal,1980s
+false,social drinker,elegant,family,public,married,kids,technology,thrifty-protector,catholic,student,medium,normal,1980s
+true,social drinker,informal,solitary,car owner,single,independent,variety,hard-worker,catholic,professional,medium,normal,1980s
+true,social drinker,formal,friends,car owner,single,independent,variety,hard-worker,catholic,student,low,normal,1980s
+true,abstemious,informal,friends,public,single,?,variety,hard-worker,catholic,student,medium,normal,1980s
+false,abstemious,?,?,?,?,?,none,hard-worker,none,?,?,underweight,1980s
+true,casual drinker,formal,family,public,single,independent,variety,thrifty-protector,catholic,student,medium,overweight,1990s
+false,abstemious,no preference,solitary,car owner,single,independent,technology,thrifty-protector,catholic,student,?,overweight,1980s
+false,social drinker,informal,family,on foot,single,independent,none,hard-worker,catholic,student,medium,normal,1990s
+true,casual drinker,informal,family,public,single,independent,variety,conformist,catholic,student,low,normal,1990s
+false,casual drinker,no preference,family,car owner,single,independent,eco-friendly,thrifty-protector,none,student,low,underweight,1980s
+false,abstemious,formal,solitary,public,single,dependent,variety,thrifty-protector,catholic,?,medium,normal,1990s
+true,casual drinker,no preference,family,car owner,single,independent,variety,thrifty-protector,catholic,student,medium,overweight,1990s
+false,abstemious,informal,friends,public,single,independent,variety,thrifty-protector,catholic,student,medium,normal,1990s
+false,abstemious,formal,family,public,married,independent,variety,thrifty-protector,catholic,student,medium,normal,1980s
+false,abstemious,formal,family,public,single,independent,variety,hard-worker,catholic,student,medium,normal,1990s
+false,social drinker,formal,family,public,single,independent,none,thrifty-protector,catholic,student,medium,normal,1990s
+true,social drinker,informal,family,public,single,independent,technology,conformist,catholic,student,high,underweight,1980s
+false,casual drinker,formal,friends,public,single,independent,eco-friendly,hard-worker,christian,student,medium,underweight,1990s
+false,casual drinker,no preference,friends,car owner,single,independent,eco-friendly,hunter-ostentatious,catholic,student,low,underweight,1980s
+false,social drinker,no preference,friends,on foot,single,independent,eco-friendly,conformist,none,student,low,overweight,1980s
+false,abstemious,formal,friends,public,single,independent,technology,hard-worker,jewish,professional,medium,obesity_i,1980s
+true,social drinker,no preference,family,car owner,single,independent,technology,hunter-ostentatious,catholic,student,medium,overweight,1990s
+false,social drinker,formal,family,public,single,independent,variety,hard-worker,christian,student,medium,underweight,1990s
+false,casual drinker,informal,friends,car owner,single,independent,technology,hard-worker,catholic,professional,medium,normal,1930s
+false,abstemious,no preference,friends,car owner,single,independent,variety,hard-worker,catholic,?,high,overweight,1980s
+false,abstemious,informal,solitary,public,single,independent,technology,thrifty-protector,catholic,student,medium,normal,1980s
+false,abstemious,formal,solitary,public,single,independent,eco-friendly,thrifty-protector,catholic,student,low,normal,1980s
+false,abstemious,no preference,family,car owner,single,independent,variety,thrifty-protector,catholic,student,medium,overweight,1990s
+true,casual drinker,formal,friends,car owner,single,independent,none,hard-worker,catholic,student,medium,normal,1990s
+true,casual drinker,formal,friends,car owner,single,independent,none,hard-worker,catholic,student,medium,normal,1990s
+false,casual drinker,formal,family,public,single,independent,none,thrifty-protector,catholic,student,medium,overweight,1990s
+false,abstemious,no preference,family,on foot,single,independent,variety,hard-worker,catholic,student,medium,normal,1990s
+true,social drinker,elegant,friends,public,single,independent,variety,hard-worker,catholic,student,low,normal,1990s
+false,social drinker,formal,family,public,married,kids,technology,thrifty-protector,catholic,student,medium,underweight,1980s
+false,abstemious,no preference,friends,public,single,independent,technology,thrifty-protector,catholic,professional,medium,normal,1980s
+true,casual drinker,informal,friends,public,single,independent,technology,thrifty-protector,none,student,medium,normal,1980s
+false,abstemious,formal,family,public,single,independent,eco-friendly,thrifty-protector,catholic,student,medium,normal,1990s
+false,social drinker,no preference,family,public,married,independent,variety,thrifty-protector,catholic,working-class,medium,obesity_ii,1980s
+false,abstemious,informal,family,?,single,independent,technology,hard-worker,catholic,student,medium,obesity_ii,1980s
+false,casual drinker,formal,friends,public,single,independent,technology,hard-worker,catholic,student,low,normal,1990s
+false,casual drinker,formal,friends,on foot,single,independent,technology,hard-worker,catholic,student,low,normal,1990s
+false,abstemious,no preference,solitary,public,single,independent,variety,hard-worker,catholic,student,low,normal,1990s
+false,casual drinker,no preference,friends,public,single,independent,variety,thrifty-protector,catholic,student,low,normal,1980s
+false,casual drinker,no preference,friends,public,single,independent,variety,thrifty-protector,none,student,low,normal,1980s
+true,social drinker,no preference,friends,car owner,married,kids,eco-friendly,hard-worker,none,student,medium,overweight,1990s
+false,casual drinker,informal,solitary,public,single,?,none,hard-worker,none,student,?,normal,1990s
+false,casual drinker,no preference,family,public,single,independent,variety,hard-worker,catholic,student,medium,normal,1990s
+true,social drinker,no preference,friends,car owner,single,independent,retro,thrifty-protector,catholic,student,low,normal,1990s
+false,social drinker,formal,family,public,single,independent,eco-friendly,hard-worker,catholic,student,low,normal,1980s
