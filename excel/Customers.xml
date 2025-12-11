@@ -1,0 +1,32 @@
+<Customers>
+  <Customer>
+    <CustomerID>C001</CustomerID>
+    <CustomerName>Alpha Ltd</CustomerName>
+    <City>Manchester</City>
+    <Region>North</Region>
+  </Customer>
+  <Customer>
+    <CustomerID>C002</CustomerID>
+    <CustomerName>Beta Plc</CustomerName>
+    <City>London</City>
+    <Region>South</Region>
+  </Customer>
+  <Customer>
+    <CustomerID>C003</CustomerID>
+    <CustomerName>Gamma Corp</CustomerName>
+    <City>Leeds</City>
+    <Region>East</Region>
+  </Customer>
+  <Customer>
+    <CustomerID>C004</CustomerID>
+    <CustomerName>Delta Co</CustomerName>
+    <City>Bristol</City>
+    <Region>West</Region>
+  </Customer>
+  <Customer>
+    <CustomerID>C005</CustomerID>
+    <CustomerName>Epsilon Inc</CustomerName>
+    <City>Birmingham</City>
+    <Region>South</Region>
+  </Customer>
+</Customers>
