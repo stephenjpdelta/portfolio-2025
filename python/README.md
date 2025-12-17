@@ -1,3 +1,4 @@
+
 ## Python Projects
 
 This folder contains a selection of Python projects demonstrating

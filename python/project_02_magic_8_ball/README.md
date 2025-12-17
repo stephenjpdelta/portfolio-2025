@@ -1,8 +1,8 @@
-\# Magic 8-Ball (Python)
+# Magic 8-Ball (Python)
 
 
 
-A simple Python implementation of the classic \*\*Magic 8-Ball\*\* toy.
+A simple Python implementation of the classic **Magic 8-Ball** toy.
 
 
 
@@ -14,17 +14,17 @@ Ask a yes/no question, and the script will respond with one of 20 traditional Ma
 
 
 
-\## Features
+## Features
 
 
 
-\- 20 classic Magic 8-Ball responses
+- 20 classic Magic 8-Ball responses
 
-\- Infinite question loop
+- Infinite question loop
 
-\- Simple, beginner-friendly Python code
+- Simple, beginner-friendly Python code
 
-\- No external dependencies
+- No external dependencies
 
 
 
@@ -32,11 +32,11 @@ Ask a yes/no question, and the script will respond with one of 20 traditional Ma
 
 
 
-\## Requirements
+## Requirements
 
 
 
-\- Python 3.x
+- Python 3.x
 
 
 
@@ -48,7 +48,7 @@ Ask a yes/no question, and the script will respond with one of 20 traditional Ma
 
 
 
-\## Usage
+## Usage
 
 
 
@@ -58,7 +58,7 @@ Run the script from the command line:
 
 ```bash
 
-python magic\_8\_ball.py
+python magic_8_ball.py
 
 
 

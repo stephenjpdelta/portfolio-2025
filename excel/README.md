@@ -1,8 +1,8 @@
-\## Excel Data Analysis Project
+## Excel Data Analysis Project
 
 
 
-\### Overview
+### Overview
 
 This project demonstrates the use of Microsoft Excel for data cleaning,
 
@@ -16,33 +16,17 @@ from raw tabular data using built-in Excel functionality.
 
 
 
-\### Key Tasks
+### Key Tasks
 
-\- Cleaning and organising raw data
+- Cleaning and organising raw data
 
-\- Using formulas for calculations and validation
+- Using formulas for calculations and validation
 
-\- Creating summary tables and metrics
+- Creating summary tables and metrics
 
-\- Applying filters and sorting to explore patterns
+- Applying filters and sorting to explore patterns
 
-\- Presenting results in a clear, readable format
-
-
-
----
-
-
-
-\### Tools \& Techniques
-
-\- Excel formulas (e.g. IF, VLOOKUP/XLOOKUP, COUNTIF, SUMIFS)
-
-\- Pivot tables
-
-\- Conditional formatting
-
-\- Structured worksheets for repeatable analysis
+- Presenting results in a clear, readable format
 
 
 
@@ -50,7 +34,23 @@ from raw tabular data using built-in Excel functionality.
 
 
 
-\### Purpose
+### Tools & Techniques
+
+- Excel formulas (e.g. IF, VLOOKUP/XLOOKUP, COUNTIF, SUMIFS)
+
+- Pivot tables
+
+- Conditional formatting
+
+- Structured worksheets for repeatable analysis
+
+
+
+---
+
+
+
+### Purpose
 
 The project highlights practical Excel skills commonly required in
 
