@@ -6,7 +6,7 @@ demonstrating practical skills across Excel, SQL, Python, and Power BI.
 Each folder represents a small, self-contained project or set of related projects.
 Detailed documentation is provided in the README within each folder.
 
----
+
 
 ## Projects
 
@@ -20,7 +20,7 @@ Detailed documentation is provided in the README within each folder.
 
 📁 Folder: `/excel`
 
----
+
 
 ### SQL
 **Querying and analysing AHCA polling data**
@@ -31,7 +31,7 @@ Detailed documentation is provided in the README within each folder.
 
 📁 Folder: `/sql`
 
----
+
 
 ### Python
 **Small analytical and programming projects**
@@ -50,7 +50,7 @@ Detailed documentation is provided in the README within each folder.
 
 📁 Folder: `/python`
 
----
+
 
 ### Power BI
 **Visualising AHCA polling data**
@@ -61,7 +61,7 @@ Detailed documentation is provided in the README within each folder.
 
 📁 Folder: `/power-bi`
 
----
+
 
 ## Skills Demonstrated
 
@@ -71,7 +71,7 @@ Detailed documentation is provided in the README within each folder.
 - Dashboarding and data visualisation
 - Clear, reproducible documentation
 
----
+
 
 ## How to Use This Repository
 
