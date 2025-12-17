@@ -49,6 +49,9 @@ https://www.kaggle.com/datasets/ulrikthygepedersen/airbnb-listings
 The raw data reflects typical issues found in scraped or aggregated listings data, including inconsistent encodings, mixed formats, and substantial missingness in host-level fields.
 
 
+Note. The file listings.csv on this repo is a sample of the dataset on Kaggle due to GitHub file size limits.
+The script processes the sample file only, so results are illustrative.
+
 
 ---
 

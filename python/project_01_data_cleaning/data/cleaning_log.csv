@@ -1,0 +1,17 @@
+﻿rule,column,rows_affected,notes
+name: fix mojibake + normalize,name,6987,ftfy + roundtrip + NFC + whitespace/control strip
+name: remaining mojibake markers,name,0,Rows still matching mojibake marker regex (post-fix)
+host_since: to_datetime(coerce),host_since,23943,Non-empty values that became NaT
+host_response_time: to category,host_response_time,0,Converted dtype to category
+host_is_superhost: map to boolean,host_is_superhost,40000,Converted common truthy/falsey strings to pandas boolean dtype
+host_has_profile_pic: map to boolean,host_has_profile_pic,40000,Converted common truthy/falsey strings to pandas boolean dtype
+host_identity_verified: map to boolean,host_identity_verified,40000,Converted common truthy/falsey strings to pandas boolean dtype
+instant_bookable: map to boolean,instant_bookable,40000,Converted common truthy/falsey strings to pandas boolean dtype
+host_acceptance_rate: parse % to proportion,host_acceptance_rate,14919,E.g. '95%' -> 0.95
+host_response_rate: parse % to proportion,host_response_rate,12346,E.g. '95%' -> 0.95
+bedrooms: fill NA with median by property_type,bedrooms,7004,Group-wise median imputation
+has_reviews: derived from review_scores_rating,has_reviews,28438,Count of listings with a rating
+review_scores_*: fill NA with 0,review_scores_*,151271,Filled all review_scores_* missing values
+amenities_clean: derived from amenities,amenities_clean,40000,Removed braces/quotes + lowercased
+amenities_count: count amenities,amenities_count,50000,Counted comma-separated items (NA -> 0)
+has_wifi: derived flag,has_wifi,36698,amenities_clean contains 'wifi'
