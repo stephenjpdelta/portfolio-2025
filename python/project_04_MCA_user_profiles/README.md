@@ -1,14 +1,14 @@
-\# 📘 Multiple Correspondence Analysis of Restaurant Consumer Profiles  
+# 📘 Multiple Correspondence Analysis of Restaurant Consumer Profiles  
 
-\*\*Portfolio Project — 2025\*\*
-
-
-
-\## 📌 Overview
+**Portfolio Project — 2025**
 
 
 
-This project applies \*\*Multiple Correspondence Analysis (MCA)\*\* to a public dataset of restaurant consumer profiles.
+## 📌 Overview
+
+
+
+This project applies **Multiple Correspondence Analysis (MCA)** to a public dataset of restaurant consumer profiles.
 
 
 
@@ -16,51 +16,19 @@ It demonstrates a complete workflow for:
 
 
 
-\- Cleaning and preprocessing categorical survey-style data
+- Cleaning and preprocessing categorical survey-style data
 
-\- Engineering new variables (BMI groups, age groups)
+- Engineering new variables (BMI groups, age groups)
 
-\- Converting categories to a binary indicator matrix
+- Converting categories to a binary indicator matrix
 
-\- Performing MCA to extract interpretable behavioural dimensions
+- Performing MCA to extract interpretable behavioural dimensions
 
-\- Visualising relationships between consumer attributes
+- Visualising relationships between consumer attributes
 
-\- Segmenting users via K-Means clustering
+- Segmenting users via K-Means clustering
 
-\- Communicating insights from complex categorical structures
-
-
-
----
-
-
-
-\## 🔏 Data Source \& Licensing
-
-
-
-\*\*Dataset:\*\* Restaurant \& Consumer Ratings (public domain)
-
-
-
-\*\*Metadata (from dataset page):\*\*
-
-
-
-\- \*\*License:\*\* CC0 – Public Domain  
-
-\- \*\*Usage:\*\* Free to use, share, modify, and redistribute without restriction  
-
-\- \*\*Usability score:\*\* 7.35  
-
-\- \*\*Update frequency:\*\* Not specified  
-
-\- \*\*Tags:\*\* Business, Arts \& Entertainment, Restaurants  
-
-
-
-Because the dataset is under \*\*CC0\*\*, both the cleaned data and derived outputs may be included and reused freely.
+- Communicating insights from complex categorical structures
 
 
 
@@ -68,53 +36,31 @@ Because the dataset is under \*\*CC0\*\*, both the cleaned data and derived outp
 
 
 
-\## 📂 Dataset Summary
+## 🔏 Data Source & Licensing
 
 
 
-\- \*\*Rows:\*\* 138 raw → 113 after preprocessing  
-
-\- \*\*Columns:\*\* 19 raw → 14 cleaned categorical attributes  
+**Dataset:** Restaurant & Consumer Ratings (public domain)
 
 
 
-\*\*Key variables include:\*\*
+**Metadata (from dataset page):**
 
 
 
-\- `smoker`
+- **License:** CC0 – Public Domain  
 
-\- `drink\_level`
+- **Usage:** Free to use, share, modify, and redistribute without restriction  
 
-\- `dress\_preference`
+- **Usability score:** 7.35  
 
-\- `ambience`
+- **Update frequency:** Not specified  
 
-\- `transport`
-
-\- `marital\_status`
-
-\- `hijos` (children)
-
-\- `interest`
-
-\- `personality`
-
-\- `religion`
-
-\- `activity`
-
-\- `budget`
+- **Tags:** Business, Arts & Entertainment, Restaurants  
 
 
 
-\*\*Engineered features:\*\*
-
-
-
-\- BMI category (underweight → obesity class III)
-
-\- Age decade (1930s → 2020s)
+Because the dataset is under **CC0**, both the cleaned data and derived outputs may be included and reused freely.
 
 
 
@@ -122,37 +68,42 @@ Because the dataset is under \*\*CC0\*\*, both the cleaned data and derived outp
 
 
 
-\## 🧹 Preprocessing Workflow
+## 📂 Dataset Summary
 
 
 
-\### ✔ Text Cleaning
+- **Rows:** 138 raw → 113 after preprocessing  
 
-\- Lowercased
-
-\- Trimmed whitespace
-
-\- Standardised inconsistent category values
+- **Columns:** 19 raw → 14 cleaned categorical attributes  
 
 
 
-\### ✔ Feature Engineering
-
-\- BMI calculated: `weight\_kg / height\_m²`
-
-\- BMI binned using clinical thresholds
-
-\- Age grouped by decade
-
-\- Rows removed for unrealistic heights (< 1.6 m)
-
-\- Missing values removed (≈ 5 rows)
+**Key variables include:**
 
 
 
-\*\*Cleaned dataset saved as:\*\*  
+- `smoker`
+- `drink_level`
+- `dress_preference`
+- `ambience`
+- `transport`
+- `marital_status`
+- `hijos` (children)
+- `interest`
+- `personality`
+- `religion`
+- `activity`
+- `budget`
 
-`data/processed/userprofiles\_cleaned.csv`
+
+
+**Engineered features:**
+
+
+
+- BMI category (underweight → obesity class III)
+
+- Age decade (1930s → 2020s)
 
 
 
@@ -160,29 +111,59 @@ Because the dataset is under \*\*CC0\*\*, both the cleaned data and derived outp
 
 
 
-\## 🔢 Binary Encoding for MCA
+## 🧹 Preprocessing Workflow
 
 
 
-All categorical fields were one-hot encoded, producing a \*\*65-column binary indicator matrix\*\*. Each column reflects a specific category, for example:
+### ✔ Text Cleaning
+
+- Lowercased
+
+- Trimmed whitespace
+
+- Standardised inconsistent category values
 
 
 
-\- `drink\_level\_social\_drinker`
+### ✔ Feature Engineering
 
-\- `ambience\_romantic`
-
-\- `budget\_high`
-
-\- `personality\_extroverted`
-
-\- `age\_group\_1980s`
+- BMI calculated: `weight_kg / height_m²`
+- BMI binned using clinical thresholds
+- Age grouped by decade
+- Rows removed for unrealistic heights (< 1.6 m)
+- Missing values removed (≈ 5 rows)
 
 
 
-\*\*Saved as:\*\*  
+**Cleaned dataset saved as:**  
 
-`data/processed/userprofiles\_mca\_matrix.csv`
+`data/processed/userprofiles_cleaned.csv`
+
+
+
+---
+
+
+
+## 🔢 Binary Encoding for MCA
+
+
+
+All categorical fields were one-hot encoded, producing a **65-column binary indicator matrix**. Each column reflects a specific category, for example:
+
+
+
+- `drink_level_social_drinker`
+- `ambience_romantic`
+- `budget_high`
+- `personality_extroverted`
+- `age_group_1980s`
+
+
+
+**Saved as:**  
+
+`data/processed/userprofiles_mca_matrix.csv`
 
 
 
@@ -194,7 +175,7 @@ This matrix forms the MCA input.
 
 
 
-\## 📊 Multiple Correspondence Analysis (MCA)
+## 📊 Multiple Correspondence Analysis (MCA)
 
 
 
@@ -202,63 +183,51 @@ MCA reduces high-dimensional categorical data into latent dimensions representin
 
 
 
-\*\*Generated outputs:\*\*
+**Generated outputs:**
 
 
 
-\- Row coordinates (respondent positions)
-
-\- Column coordinates (category positions)
-
-\- Eigenvalues and explained inertia
-
-\- Scree plot
-
-\- MCA biplot (Dim 1 vs Dim 2)
+- Row coordinates (respondent positions)
+- Column coordinates (category positions)
+- Eigenvalues and explained inertia
+- Scree plot
+- MCA biplot (Dim 1 vs Dim 2)
 
 
 
-\*\*Stored in `data/processed/`:\*\*
+**Stored in `data/processed/`:**
 
 
 
-\- `row\_coordinates.csv`
-
-\- `column\_coordinates.csv`
-
-\- `eigenvalues\_explained\_inertia.csv`
-
-\- `mca\_scree\_plot.png`
-
-\- `mca\_biplot\_dim1\_dim2.png`
+- `row_coordinates.csv`
+- `column_coordinates.csv`
+- `eigenvalues_explained_inertia.csv`
+- `mca_scree_plot.png`
+- `mca_biplot_dim1_dim2.png`
 
 
 
-\### High-level Interpretation (template)
+### High-level Interpretation (template)
 
 
 
-\*\*Dimension 1\*\* often separates lifestyle patterns, such as:
+**Dimension 1** often separates lifestyle patterns, such as:
 
-\- Social vs abstemious drinking
-
-\- Extroverted vs introverted personalities
-
-\- High vs low activity levels
+- Social vs abstemious drinking
+- Extroverted vs introverted personalities
+- High vs low activity levels
 
 
 
-\*\*Dimension 2\*\* often relates to budget and ambience preferences, such as:
+**Dimension 2** often relates to budget and ambience preferences, such as:
 
-\- High vs low budget
-
-\- Formal vs informal dress
-
-\- Romantic vs family ambience
+- High vs low budget
+- Formal vs informal dress
+- Romantic vs family ambience
 
 
 
-> \*(Replace with project-specific insights after reviewing plots.)\*
+> *(Replace with project-specific insights after reviewing plots.)*
 
 
 
@@ -266,7 +235,7 @@ MCA reduces high-dimensional categorical data into latent dimensions representin
 
 
 
-\## 🔒 Clustering in MCA Space
+## 🔒 Clustering in MCA Space
 
 
 
@@ -274,33 +243,32 @@ K-Means clustering (`k = 3`) applied to MCA scores reveals consumer segments.
 
 
 
-\*\*Outputs:\*\*
+**Outputs:**
 
 
 
-\- `cluster\_assignments.csv`
-
-\- `mca\_clusters\_dim1\_dim2.png`
-
-
-
-\*\*Example segment interpretations:\*\*
+- `cluster_assignments.csv`
+- `mca_clusters_dim1_dim2.png`
 
 
 
-\- \*\*Cluster A – Social Lifestyle\*\*  
+**Example segment interpretations:**
+
+
+
+- **Cluster A – Social Lifestyle**  
 
 &nbsp; Social drinkers, extroverted, medium/high budget
 
 
 
-\- \*\*Cluster B – Quiet / Family-Oriented\*\*  
+- **Cluster B – Quiet / Family-Oriented**  
 
 &nbsp; Abstemious drinkers, casual ambience preferences
 
 
 
-\- \*\*Cluster C – Traditional Preferences\*\*  
+- **Cluster C – Traditional Preferences**  
 
 &nbsp; Formal dress, structured routines, stronger religious identity
 
@@ -310,7 +278,7 @@ K-Means clustering (`k = 3`) applied to MCA scores reveals consumer segments.
 
 
 
-\## 🔥 Personality → Preference Heatmap
+## 🔥 Personality → Preference Heatmap
 
 
 
@@ -318,37 +286,9 @@ A heatmap illustrates how personality types align with category indicators (drin
 
 
 
-\*\*Saved as:\*\*  
+**Saved as:**  
 
-`personality\_indicator\_heatmap.png`
-
-
-
----
-
-
-
-\## 🧠 Technical Skills Demonstrated
-
-
-
-\- Python scripting \& project structuring
-
-\- Categorical data preprocessing
-
-\- Feature engineering
-
-\- Binary / one-hot encoding
-
-\- Multiple Correspondence Analysis (prince library)
-
-\- Dimensionality reduction \& interpretation
-
-\- K-Means clustering
-
-\- Visualisation (matplotlib)
-
-\- Reproducible analytics workflow
+`personality_indicator_heatmap.png`
 
 
 
@@ -356,7 +296,27 @@ A heatmap illustrates how personality types align with category indicators (drin
 
 
 
-\## 📁 File Structure
+## 🧠 Technical Skills Demonstrated
+
+
+
+- Python scripting & project structuring
+- Categorical data preprocessing
+- Feature engineering
+- Binary / one-hot encoding
+- Multiple Correspondence Analysis (prince library)
+- Dimensionality reduction & interpretation
+- K-Means clustering
+- Visualisation (matplotlib)
+- Reproducible analytics workflow
+
+
+
+---
+
+
+
+## 📁 File Structure
 
 
 
@@ -372,25 +332,25 @@ portfolio-2025/
 
 │   └── processed/
 
-│       ├── userprofiles\_cleaned.csv
+│       ├── userprofiles_cleaned.csv
 
-│       ├── userprofiles\_mca\_matrix.csv
+│       ├── userprofiles_mca_matrix.csv
 
-│       ├── row\_coordinates.csv
+│       ├── row_coordinates.csv
 
-│       ├── column\_coordinates.csv
+│       ├── column_coordinates.csv
 
-│       ├── eigenvalues\_explained\_inertia.csv
+│       ├── eigenvalues_explained_inertia.csv
 
-│       ├── mca\_scree\_plot.png
+│       ├── mca_scree_plot.png
 
-│       ├── mca\_biplot\_dim1\_dim2.png
+│       ├── mca_biplot_dim1_dim2.png
 
-│       ├── mca\_clusters\_dim1\_dim2.png
+│       ├── mca_clusters_dim1_dim2.png
 
-│       ├── personality\_indicator\_heatmap.png
+│       ├── personality_indicator_heatmap.png
 
-│       └── userprofiles\_categories.json
+│       └── userprofiles_categories.json
 
 
 

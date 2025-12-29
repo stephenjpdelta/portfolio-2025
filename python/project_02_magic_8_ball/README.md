@@ -19,11 +19,8 @@ Ask a yes/no question, and the script will respond with one of 20 traditional Ma
 
 
 - 20 classic Magic 8-Ball responses
-
 - Infinite question loop
-
 - Simple, beginner-friendly Python code
-
 - No external dependencies
 
 

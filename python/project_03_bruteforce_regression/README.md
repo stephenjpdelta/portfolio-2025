@@ -21,13 +21,10 @@ for a set of 2D data points that you provide.
 Instead of using a closed-form solution or libraries like NumPy, the script **brute-forces** the solution by testing all possible values of `m` and `b` within a defined range and selecting the combination that minimises the **total squared vertical error**.
 
 
-
 This makes the script ideal for **learning, experimentation, and understanding how least-squares fitting works under the hood**.
 
 
-
 ---
-
 
 
 ## How It Works
@@ -35,7 +32,6 @@ This makes the script ideal for **learning, experimentation, and understanding h
 
 
 1. You enter a list of numbers representing `(x, y)` coordinate pairs.
-
 2. The script:
 
 - Tries all values of `m` and `b` from **–100 to +100** in steps of **0.1**

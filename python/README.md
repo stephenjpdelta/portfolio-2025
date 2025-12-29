@@ -1,11 +1,9 @@
 
 ## Python Projects
 
-This folder contains a selection of Python projects demonstrating
-data analysis, data cleaning, and exploratory programming techniques.
+This folder contains a selection of Python projects demonstrating data analysis, data cleaning, and exploratory programming techniques.
 
-The projects range from practical data-focused analysis to smaller
-learning exercises.
+The projects range from practical data-focused analysis to smaller learning exercises.
 
 ---
 
@@ -28,5 +26,4 @@ learning exercises.
   - Analysis of restaurant user profiles using Multiple Correspondence Analysis (MCA)
   - Focuses on categorical data exploration and pattern identification
 
-Each project folder contains the relevant notebook(s), scripts,
-and data files, along with documentation where appropriate.
+Each project folder contains the relevant notebook(s), scripts, and data files, along with documentation where appropriate.

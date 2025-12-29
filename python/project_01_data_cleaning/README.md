@@ -13,13 +13,9 @@ The emphasis is on **real-world data problems** rather than toy examples:
 
 
 * malformed UTF-8 text (mojibake)
-
 * inconsistent data types
-
 * percentage values stored as strings
-
 * missing and incomplete records
-
 * transparent, defensible cleaning decisions
 
 
@@ -72,9 +68,7 @@ It combines:
 
 
 * `ftfy`
-
 * encoding round-trips (`cp1252`, `latin-1`)
-
 * Unicode normalisation (NFC)
 
 
@@ -84,9 +78,7 @@ Quality checks include:
 
 
 * counts of rows changed
-
 * detection of remaining suspicious strings
-
 * side-by-side before/after examples
 
 
@@ -102,11 +94,8 @@ Several columns are normalised to appropriate types:
 
 
 * dates parsed safely with coercion (`host_since`)
-
 * boolean-like fields mapped to a true boolean dtype
-
 * percentage strings (e.g. `"95%"`) converted to numeric proportions (`0.95`)
-
 * categorical fields explicitly typed
 
 
@@ -122,9 +111,7 @@ Missing data is handled using transparent, domain-aware rules:
 
 
 * `bedrooms` imputed using **group-wise medians** by property type
-
 * review score fields filled consistently
-
 * derived indicator fields added (e.g. `has_reviews`)
 
 
@@ -140,9 +127,7 @@ Structured features are derived from semi-structured text:
 
 
 * amenities parsed into `amenities_count`
-
 * boolean flags derived (e.g. `has_wifi`)
-
 * raw and cleaned amenities retained in the audit output
 
 
@@ -162,11 +147,8 @@ This includes:
 
 
 * rule-level logging of **how many rows each transformation affects**
-
 * visual checks of missingness before and after cleaning
-
 * side-by-side examples of edited text fields
-
 * detection of duplicate column names and identical-content columns
 
 
