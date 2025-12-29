@@ -17,17 +17,11 @@ It demonstrates a complete workflow for:
 
 
 - Cleaning and preprocessing categorical survey-style data
-
 - Engineering new variables (BMI groups, age groups)
-
 - Converting categories to a binary indicator matrix
-
 - Performing MCA to extract interpretable behavioural dimensions
-
 - Visualising relationships between consumer attributes
-
 - Segmenting users via K-Means clustering
-
 - Communicating insights from complex categorical structures
 
 
@@ -49,13 +43,9 @@ It demonstrates a complete workflow for:
 
 
 - **License:** CC0 – Public Domain  
-
 - **Usage:** Free to use, share, modify, and redistribute without restriction  
-
 - **Usability score:** 7.35  
-
 - **Update frequency:** Not specified  
-
 - **Tags:** Business, Arts & Entertainment, Restaurants  
 
 
@@ -73,7 +63,6 @@ Because the dataset is under **CC0**, both the cleaned data and derived outputs 
 
 
 - **Rows:** 138 raw → 113 after preprocessing  
-
 - **Columns:** 19 raw → 14 cleaned categorical attributes  
 
 
@@ -102,7 +91,6 @@ Because the dataset is under **CC0**, both the cleaned data and derived outputs 
 
 
 - BMI category (underweight → obesity class III)
-
 - Age decade (1930s → 2020s)
 
 
@@ -118,9 +106,7 @@ Because the dataset is under **CC0**, both the cleaned data and derived outputs 
 ### ✔ Text Cleaning
 
 - Lowercased
-
 - Trimmed whitespace
-
 - Standardised inconsistent category values
 
 

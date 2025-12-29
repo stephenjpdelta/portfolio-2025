@@ -37,13 +37,9 @@ The pipeline produces:
 ## Dataset
 
 Source dataset (Kaggle):  
-
 https://www.kaggle.com/datasets/ulrikthygepedersen/airbnb-listings
 
-
-
 The raw data reflects typical issues found in scraped or aggregated listings data, including inconsistent encodings, mixed formats, and substantial missingness in host-level fields.
-
 
 Note. The file listings.csv on this repo is a sample of the dataset on Kaggle due to GitHub file size limits.
 The script processes the sample file only, so results are illustrative.
@@ -166,13 +162,11 @@ All QA information is also saved to `cleaning_log.csv`.
 
 
 ### Audit / Workings Dataset
-
 **`listings_cleaned_with_workings.csv`**
 
 
 
 This file includes raw fields, cleaned versions, and intermediate working columns.  
-
 It is intended for transparency, debugging, and reproducibility.
 
 
@@ -182,13 +176,11 @@ It is intended for transparency, debugging, and reproducibility.
 
 
 ### Final Dataset
-
 **`listings_final.csv`**
 
 
 
 This is a lean, analysis-ready dataset containing one authoritative version of each field and relevant engineered features.  
-
 Intermediate working columns are removed.
 
 
@@ -202,19 +194,12 @@ Intermediate working columns are removed.
 
 
 * Data cleaning and preprocessing in Python
-
 * Handling real-world text encoding issues (UTF-8 / mojibake)
-
 * Robust type conversion and validation
-
 * Missing-data strategies grounded in domain logic
-
 * Feature engineering for downstream analysis
-
 * Built-in QA and auditability for data pipelines
-
 * Clear separation of working vs final outputs
-
 * Reproducible analysis using Jupyter Notebooks
 
 
