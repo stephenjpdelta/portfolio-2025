@@ -38,11 +38,9 @@ This makes the script ideal for **learning, experimentation, and understanding h
 
   
 
-[
-
 sum (y_i - (mx_i + b))^2
 
-]
+
 
 - Keeps track of the `(m, b)` pair that produces the lowest error
 
