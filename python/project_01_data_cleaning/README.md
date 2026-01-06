@@ -8,7 +8,7 @@ This project demonstrates a **robust, auditable data cleaning pipeline** for Air
 
 
 
-The emphasis is on **real-world data problems** rather than toy examples:
+The emphasis is on **real-world data problems**:
 
 
 

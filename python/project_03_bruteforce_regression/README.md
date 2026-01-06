@@ -6,11 +6,9 @@ This Python script finds a **line of best fit** of the form:
 
 
 
-[
 
 y = mx + b
 
-]
 
 
 
